@@ -1,2 +1,2 @@
 # Frontend-para-el-fisrt-backend
-la parte fácil del trabajo. Qué lindo.
+TP 2 o lo que sea. El front end de Teobaldo Saez
