@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Biblioteca Escolar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/Peperina.png">
+</head>
+<body>
+    <div class="titulo-con-imagen">
+        <h1>Biblioteca virtual</h1>
+    </div>
+
+  <form id="form-crear">
+    <h2>Agregar libro</h2>
+    <input type="text" id="titulo" placeholder="Título" required>
+    <input type="text" id="autor" placeholder="Autor" required>
+    <input type="text" id="isbn" placeholder="ISBN" required>
+    <input type="text" id="categoria" placeholder="Categoría" required>
+    <button type="submit">Postear</button>
+  </form>
+
+  <hr>
+
+  <input type="text" id="busqueda" placeholder="Buscar por título...">
+  <button onclick="buscar_mis_Libritos()">Buscar por nombre</button>
+  <button onclick="cargar_mis_Libritos()">Listar todos los libros</button>
+
+  <h2>Libros</h2>
+  <ul id="lista-libros"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
